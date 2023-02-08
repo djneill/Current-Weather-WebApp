@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Weather Web App</title>
+    <meta name="description" content="Weather Web App">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:url" content="https://currentweatherwebapp.netlify.app/" />
+    <meta property="og:title" content="Weather Web App" />
+    <meta property="og:description" content="Weather Web App" />
+    <meta property="og:site_name" content="Weather Web App" />
+    <meta property="og:image" content="https://currentweatherwebapp.netlify.app/images/metapic.png" />
+    <meta property="fb:app_id" content="000000" /> <!-- Used for Domain Insights -->
+    <meta property="og:type" content="website" /> <!-- website is deafult -->
+    <meta property="og:locale" content="en_US" /> <!-- en_US is deafult -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <div class="card-container">
+        <div class="search">
+            <input type="text" class="search-bar" placeholder="Enter Your City">
+            <button><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1.5em"
+                    width="1.5em" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M19.023,16.977c-0.513-0.488-1.004-0.997-1.367-1.384c-0.372-0.378-0.596-0.653-0.596-0.653l-2.8-1.337 C15.34,12.37,16,10.763,16,9c0-3.859-3.14-7-7-7S2,5.141,2,9s3.14,7,7,7c1.763,0,3.37-0.66,4.603-1.739l1.337,2.8 c0,0,0.275,0.224,0.653,0.596c0.387,0.363,0.896,0.854,1.384,1.367c0.494,0.506,0.988,1.012,1.358,1.392 c0.362,0.388,0.604,0.646,0.604,0.646l2.121-2.121c0,0-0.258-0.242-0.646-0.604C20.035,17.965,19.529,17.471,19.023,16.977z M9,14 c-2.757,0-5-2.243-5-5s2.243-5,5-5s5,2.243,5,5S11.757,14,9,14z">
+                    </path>
+                </svg></button>
+        </div>
+        <div class="weather loading">
+            <h2 class="city">Weather in Where</h2>
+            <div class="gridContainer">
+                <div class="topGrid">
+                    <img class="weatherIcon gridItem" src="" alt="">
+                    <h1 class="temp">32°F</h1>
+                </div>
+            </div>
+            <div class="flex">
+                <div class="bottomGrid">
+                    <img src="" alt="" class="icon">
+                    <div class="description">Mostly Sunny</div>
+                    <div class="lowTemp">Low Temp</div>
+                    <div class="humidity">Humidity: 35%</div>
+                    <div class="wind">Wind speed: 12 km/h</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
