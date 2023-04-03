@@ -1,3 +1,5 @@
+<img src="images/readweather.png" alt="website homepage"/>
+
 # Current Weather WebApp
 
 The current weather web app will display and real aloud the current weather conditions for the city entered using the web speech API SpeechSynthesis.
